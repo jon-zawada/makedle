@@ -31,7 +31,7 @@ jobs:
         working-directory: ./client
         run: npm install
 
-      - name: Run Client Jest Tests
+       - name: Run Client Jest Tests
         working-directory: ./client
         run: npm test --skip-coverage
 
